@@ -5,21 +5,26 @@
 # Your task: Use variables to make the code shorter and easier to change!
 
 # Step 1: Run this program as it is first:
-print("Hello, Alice!")
-print("Alice is 25 years old.")
-print("In 5 years, Alice will be 30 years old.")
-print("Alice really likes pizza.")
-print("Pizza is Alice's favourite food!")
+name = "Zeliha"
+age = 25
+food ="Pizza"
+print(f"Hello, {name}")
+print(f"{name} is {age} years old.")
+print(f"In 5 years, {name} will be {age+5} years old.")
+print(f"{name} really likes pizza.")
+print(f"Pizza is {name}'s favourite Pizza!")
 
 # This will just add an empty line for space
 # Please don't touch this
 print("")
-
-print("Hello, Bob!")
-print("Bob is 30 years old.")
-print("In 5 years, Bob will be 35 years old.")
-print("Bob really likes noodles.")
-print("Noodles is Bob's favourite food!")
+bobname = "Bob"
+bobage = 30
+bobfood = "Noodles"
+print(f"Hello, {bobname}!")
+print(f"{bobname} is {bobage} years old.")
+print(f"In 5 years, {bobname} will be {age+5} years old.")
+print(f"{bobname} really likes {bobfood}.")
+print(f"{bobfood} is Bob's favourite food!")
 
 # Notice there's lots of repetition!
 # If we want to change Alice's age or favourite food, we'd have to change it in many places.
@@ -43,7 +48,14 @@ print("Noodles is Bob's favourite food!")
 # Step 4: Add a third person with their own data.
 # This should now be much quicker since you only need to change variables,
 # not rewrite all the print statements.
-
+Alanname = "Alan"
+Alanage = 40
+Alanfood = "Curry bristket"
+print(f"Hello, {Alanname}!")
+print(f"{Alanname} is {Alanage} years old.")
+print(f"In 5 years, {Alanname} will be {Alanage+5} years old.")
+print(f"{Alanname} really likes {Alanfood}.")
+print(f"{Alanfood} is Alanname's favourite food!")
 # -------------------------------------------
 # 💡 Extra Challenge (optional):
 # - Use input() to ask the user for their name, age, and favourite food.
