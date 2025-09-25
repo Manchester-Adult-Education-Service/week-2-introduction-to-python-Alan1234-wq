@@ -14,11 +14,13 @@ name = input("Enter your name: ")
 while True:
     try:
         age = int(input("Enter your age (whole number): "))
+        favoritefood = input("what's your favorite food?")
+        favoritesong = input("what's your favorite song?")
         break
     except ValueError:
         print("Please enter your age as a whole number, e.g. 25")
 
-print(f"Hello, {name}! This year you are {age}.")
+print(f"Hello, {name}! This year you are {age} This is your favor food {favoritefood} This is your favor song {favoritesong}.")
 
 # This will just add an empty line for space
 print("")
