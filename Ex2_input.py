@@ -40,11 +40,11 @@ print(f"{colour.capitalize()} is a lovely colour, {name}!")
 # Try the examples below. Change numbers, try new operations, and see what happens.
 
 print("")  # spacing
-print(f"In 5 years you will be {age}.")
-print(f"You are approximately {age} months old.")
-print(f"If we count in dog years (x7), you'd be {age} years old.")
-print(f"Twice your age is {age}.")
-print(f"Half your age is {age}.")
+print(f"In 5 years you will be {age+5}.")
+print(f"You are approximately {age*12} months old.")
+print(f"If we count in dog years (x7), you'd be {age*7} years old.")
+print(f"Twice your age is {age*2}.")
+print(f"Half your age is {age/2}.")
 
 # A small example using the length of the name (string -> numeric)
 print(f"Your name has {len(name)} characters.")
